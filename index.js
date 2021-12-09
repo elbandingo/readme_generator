@@ -60,12 +60,12 @@ const fs = require('fs');
     ]).then(answers => fs.writeFile('./readme.md', `# ${answers.projectName}
 ${answers.description}
 ## Table of Contents:
-*[Installation](#installation)
-*[Usage](#usage)
-*[License](#license)
-*[Contributing](#contributing)
-*[Tests](#tests)
-*[Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 ### Installation:
 To install the needed dependencies, open the console and run the following:
 ${answers.instructions}

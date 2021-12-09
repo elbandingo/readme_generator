@@ -58,6 +58,7 @@ const fs = require('fs');
 
         //after all questions have been answered, take the answers, and pass them through for more processing
     ]).then(answers => fs.writeFile('./readme.md', `# ${answers.projectName}
+## Description    
 ${answers.description}
 ## Table of Contents:
 * [Installation](#installation)
@@ -69,17 +70,17 @@ ${answers.description}
 ### Installation:
 To install the needed dependencies, open the console and run the following:
 ${answers.instructions}
-### Usage:
+### Usage
 ${answers.usage}
-### License: 
+### License
 This project is licensed with:
 ${answers.license}
 ### Contributing
 ${answers.contributing}
-### Tests:
+### Tests
 To test this application,, open the console and run the following:
 --${answers.tests}--
-### Questions:
+### Questions
 email me: ${answers.email}
 review my work: ${answers.username}
 `, err => {

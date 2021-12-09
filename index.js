@@ -31,7 +31,7 @@ const fs = require('fs');
         },
         {
             type: "input",
-            name: "contribution",
+            name: "contributing",
             message: "What are the contribution guidelines?" 
         },
         {
@@ -57,7 +57,32 @@ const fs = require('fs');
         }
 
         //after all questions have been answered, take the answers, and pass them through for more processing
-    ]).then(answers => {
-        console.log(answers);
-
+    ]).then(answers => fs.writeFile('./readme.md', `#${answers.projectName}
+    ${answers.description}
+    ## Table of Contents:
+    *[Installation](#installation)
+    *[Usage](#usage)
+    *[License](#license)
+    *[Contributing](#contributing)
+    *[Tests](#tests)
+    *[Questions](#questions)
+    ### Installation:
+    To install the needed dependencies, open the console and run the following:
+    ${answers.instructions}
+    ### Usage:
+    ${answers.usage}
+    ### License: 
+    This project is licensed with:
+    ${answers.license}
+    ### Contributing
+    ${answers.contributing}
+    ### Tests:
+    To test this application,, open the console and run the following:
+    --${answers.tests}--
+    ### Questions:
+    email me: ${answers.email}
+    review my work: ${answers.username}
+    `, err => {
+        if (err) throw err;
     })
+    )

@@ -1,3 +1,9 @@
+//1,2,3
+// 1 - get dependencies
+// 2 - ask the questions that will be input
+// 3 - take the answers, put em in a file
+
+
 //declare the dependencies or modules needed for the assignment
 const inquirer = require('inquirer');
 const fs = require('fs');
@@ -79,11 +85,11 @@ ${answers.license}
 ${answers.contributing}
 ### Tests
 To test this application,, open the console and run the following:
---${answers.tests}--
+${answers.tests}
 ### Questions
 email me: ${answers.email}
 review my work: ${answers.username}
 `, err => {
         if (err) throw err;
     })
-    )
+    );

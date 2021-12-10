@@ -74,10 +74,9 @@ ${answers.description}
 * [Tests](#tests)
 * [Questions](#questions)
 ### Installation:
-To install the needed dependencies, open the console and run the following:
 ${answers.instructions}
 ### Usage
-${answers.usage}
+![usage tutorial] (assets/images/${answers.usage})
 ### License
 This project is licensed with:
 ${answers.license}

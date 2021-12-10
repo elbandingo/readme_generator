@@ -81,7 +81,7 @@ ${answers.contributing}
 To test this application,, open the console and run the following:
 --${answers.tests}--
 ### Questions
-email me: ${answers.email, '\n'}
+email me: ${answers.email}
 review my work: ${answers.username}
 `, err => {
         if (err) throw err;

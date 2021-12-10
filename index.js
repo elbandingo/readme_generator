@@ -76,7 +76,7 @@ ${answers.description}
 ### Installation:
 ${answers.instructions}
 ### Usage
-![usage tutorial] (assets/images/${answers.usage})
+![usage tutorial](assets/images/${answers.usage})
 ### License
 This project is licensed with:
 ${answers.license}

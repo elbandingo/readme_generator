@@ -1,7 +1,7 @@
-# Readme Generator
-    ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# a
+    [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 ## Description    
-this is a test description
+a
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,16 +10,16 @@ this is a test description
 * [Tests](#tests)
 * [Questions](#questions)
 ### Installation:
-use it all you want
+a
 ### Usage
-![usage tutorial](assets/images/image.jpg)
+![usage tutorial](assets/images/a)
 ### License
 This project is licensed with:
-MIT
+BSD-2-Clause
 ### Contributing
-contribute all you want
+a
 ### Tests
-no tests yet
+a
 ### Questions
-email me: hey@hey.com<br />
-review my work: https://github.com/elbandingo
+email me: a<br />
+review my work: https://github.com/a

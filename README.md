@@ -1,7 +1,7 @@
 # Readme Generator
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Description    
-This project uses Node.js to dynamically create a standard Readme.md file for GitHub projects
+This project uses node.js to take input from a user, and dynamically create a readme.md file for your GitHub projects
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,16 +10,16 @@ This project uses Node.js to dynamically create a standard Readme.md file for Gi
 * [Tests](#tests)
 * [Questions](#questions)
 ### Installation:
-1. download the files <br />2. Install inquirer using npm i install<br />3. run a terminal and type node index. follow the prompts!
+Download the files, and open a terminal in that directory. type node index and follow the prompts
 ### Usage
 ![usage tutorial](assets/images/image.jpg)
 ### License
 This project is licensed with:
 Apache-2.0
 ### Contributing
-contribute all you want! you can even mess it up! experiment!
+contribute all you want!
 ### Tests
-there are no tests at this current time
+there are no tests currently
 ### Questions
 email me: elbandingo@protonmail.com<br />
 review my work: https://github.com/ElBandingo

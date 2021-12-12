@@ -1,6 +1,7 @@
-# a
+# Readme Generator
+    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Description    
-a
+This is a sample description, i am testing the badge push functionality on this run
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -9,16 +10,16 @@ a
 * [Tests](#tests)
 * [Questions](#questions)
 ### Installation:
-a
+just run it
 ### Usage
 ![usage tutorial](assets/images/image.jpg)
 ### License
 This project is licensed with:
 Apache-2.0
 ### Contributing
-a
+contribute all you want
 ### Tests
-a
+no tests available yet
 ### Questions
-email me: hey@hey.com<br />
+email me: elbandingo@protonmail.com<br />
 review my work: https://github.com/elbandingo

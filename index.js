@@ -7,6 +7,8 @@
 //declare the dependencies or modules needed for the assignment
 const inquirer = require('inquirer');
 const fs = require('fs');
+const getBadge = require('./badgeGenerator');
+const badgeImage = require('./badgeGenerator');
 
 //set inquirer to prompt for the initial information
     inquirer.prompt([
@@ -49,7 +51,8 @@ const fs = require('fs');
             type: "list",
             name: "license",
             message: "What licenses do you want to include?",
-            choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'BSD-2-Clause', 'BSD-3-Clause', 'BSD-4-Clause'] 
+            choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'BSD-2-Clause', 'BSD-3-Clause', 'BSD-4-Clause'],
+             
         },
         {
             type: "input",
@@ -64,6 +67,7 @@ const fs = require('fs');
 
         //after all questions have been answered, take the answers, and pass them through for more processing
     ]).then(answers => fs.writeFile('./readme.md', `# ${answers.projectName}
+    ${badgeImage(answers.license)}
 ## Description    
 ${answers.description}
 ## Table of Contents:

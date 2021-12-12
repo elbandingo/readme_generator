@@ -1,5 +1,5 @@
-# GitHub Readme Generator
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Readme Generator
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description    
 This project uses Node.js and inquirer to take input from a user, and dynamically create a standard Readme.md file for your GitHub projects
 ## Table of Contents:
@@ -12,14 +12,14 @@ This project uses Node.js and inquirer to take input from a user, and dynamicall
 ### Installation:
 Download index.js and place it on your computer. Within that directory, open a node terminal and install inquirer by typing "npm i inquirer". Once complete, type node index to run the application. Enter a reply to all the prompts. Once all prompts have been answered, a readme.md file will generate at the root of the directory where index.js is located. you can then upload directoy to GitHub
 ### Usage
-![usage tutorial](assets/images/demo.mp4)
+![usage tutorial](assets/images/demo.gif)
 ### License
 This project is licensed with:
-GPL-3.0
+MIT
 ### Contributing
-contribute all you wish!
+Contribute all you wish, feel free to email me any ideas or enhancements
 ### Tests
-there are currently no tests available
+currently, there are no tests
 ### Questions
 email me: elbandingo@protonmail.com<br />
-review my work: https://github.com/ElBandingo
+review my work: https://github.com/elbandingo

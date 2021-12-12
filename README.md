@@ -12,12 +12,12 @@ This project uses Node.js and inquirer to take input from a user, and dynamicall
 ### Installation:
 Download index.js and place it on your computer. Within that directory, open a node terminal and install inquirer by typing "npm i inquirer". Once complete, type node index to run the application. Enter a reply to all the prompts. Once all prompts have been answered, a readme.md file will generate at the root of the directory where index.js is located. you can then upload directoy to GitHub
 ### Usage
-![usage tutorial](assets/images/demo.gif)
+![usage tutorial](assets/images/demo.mp4)
 ### License
 This project is licensed with:
 MIT
 ### Contributing
-Contribute all you wish, feel free to email me any ideas or enhancements
+Contribute all you wish, feel free to reach out to me via email
 ### Tests
 currently, there are no tests
 ### Questions

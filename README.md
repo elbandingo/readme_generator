@@ -1,6 +1,6 @@
-# Readme Generator
+# a
 ## Description    
-this takes input from inquirer, and dynamically creates a readme.md file
+a
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -9,17 +9,16 @@ this takes input from inquirer, and dynamically creates a readme.md file
 * [Tests](#tests)
 * [Questions](#questions)
 ### Installation:
-1. Download the file <br />2. Run in any terminal with Node.js installed<br />3.install inquirer through NPM<br />4.type index.js to run
+a
 ### Usage
 ![usage tutorial](assets/images/image.jpg)
 ### License
 This project is licensed with:
-MIT,Apache-2.0,GPL-3.0,BSD-2-Clause,BSD-3-Clause,BSD-4-Clause
+Apache-2.0
 ### Contributing
-1.test and have fun<br />2.have fun!
+a
 ### Tests
-To test this application,, open the console and run the following:
-download, run and test for yourself as per instructions above
+a
 ### Questions
-email me: hey@hey.com
-review my work: elbandingo
+email me: hey@hey.com<br />
+review my work: https://github.com/elbandingo

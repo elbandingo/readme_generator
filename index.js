@@ -33,7 +33,7 @@ const fs = require('fs');
         {
             type: "input",
             name: "usage",
-            message: "type the path and filename for the screenshot/video"
+            message: "reference the image/media filename in assets/images. example: type image.jpg (located ./assets/images/image.jpg"
         },
         {
             type: "input",
@@ -46,7 +46,7 @@ const fs = require('fs');
             message: "How can someone test your application?" 
         },
         {
-            type: "checkbox",
+            type: "list",
             name: "license",
             message: "What licenses do you want to include?",
             choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'BSD-2-Clause', 'BSD-3-Clause', 'BSD-4-Clause'] 
@@ -83,11 +83,10 @@ ${answers.license}
 ### Contributing
 ${answers.contributing}
 ### Tests
-To test this application,, open the console and run the following:
 ${answers.tests}
 ### Questions
-email me: ${answers.email}
-review my work: ${answers.username}
+email me: ${answers.email}<br />
+review my work: https://github.com/${answers.username}
 `, err => {
         if (err) throw err;
     })

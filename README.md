@@ -1,7 +1,7 @@
 # Readme Generator
-    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+    ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description    
-This is a sample description, i am testing the badge push functionality on this run
+this is a test description
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,16 +10,16 @@ This is a sample description, i am testing the badge push functionality on this 
 * [Tests](#tests)
 * [Questions](#questions)
 ### Installation:
-just run it
+use it all you want
 ### Usage
 ![usage tutorial](assets/images/image.jpg)
 ### License
 This project is licensed with:
-Apache-2.0
+MIT
 ### Contributing
 contribute all you want
 ### Tests
-no tests available yet
+no tests yet
 ### Questions
-email me: elbandingo@protonmail.com<br />
+email me: hey@hey.com<br />
 review my work: https://github.com/elbandingo

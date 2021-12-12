@@ -67,7 +67,7 @@ const badgeImage = require('./badgeGenerator');
 
         //after all questions have been answered, take the answers, and pass them through for more processing
     ]).then(answers => fs.writeFile('./readme.md', `# ${answers.projectName}
-    ${badgeImage(answers.license)}
+${badgeImage(answers.license)}
 ## Description    
 ${answers.description}
 ## Table of Contents:
